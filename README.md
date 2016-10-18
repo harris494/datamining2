@@ -1,19 +1,14 @@
-twitter_api.py:download package (tweepy) to manage Twitter api
-make streamdata input local file 'music_json'
-
-Twitter_util.java:read data from local file
-
-Twitter_test.java:Implementation Class
-Take out Time and Text from whole twitter file
-
-WebSpiderTest.java:WebSpider from Grammy;
-Save as Txt in Local
-
-Grammy_GetTxt.java:Make txt file into four part
- * YEAR CATAGORY TITLE WINNERS
-
-GrammyWinners.java:Make attribute Winners subdivide
-g.txt and t.txt is the purpose file.implement methods in Grammy_GetTxt.java and GrammyWinners.java
-
-YOUTUBE API give a maven object
-search.java is one of these that we use
+These whole files implement three methods:Extract and manage data from Twitter api and Youtube api.Webspider method to extract data from Grammy and easily manage.
+Twitter api:
+1: Download package (tweepy).
+2: twitter_api.py: Use tweepy to manage Twitter api.Extract streamdata input local file 'music_json'
+3: Twitter_util.java:read data from 'music_json'
+4: Twitter_test.java:Implementation class,take out “Time” and “Text” from outputstream in Twitter_util.java.
+Grammy:
+1: WebSpiderTest.java:Webspider method to extract data from Grammy.Then save as txt format in Local.
+2: Grammy_GetTxt.java:Separate txt file into four part.
+YEAR CATAGORY TITLE WINNERS
+3:GrammyWinners.java:Make attribute Winners subdivide 
+Comments:g.txt and t.txt is the target file.We use two files to implements methods in class Grammy_GetTxt.java and GrammyWinners.java.
+Youtube api:
+YOUTUBE API give a maven object. Methords named search.java is being used here, others is avaliable in the furture.
