@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 /**
- * read in local file
+ * read from local file
  * @author Harris
  *
  */
