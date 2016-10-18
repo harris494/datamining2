@@ -18,7 +18,7 @@ Grammy:
 
 YEAR CATAGORY TITLE WINNERS
 
-3:GrammyWinners.java:Make attribute Winners subdivide 
+3: GrammyWinners.java:Make attribute Winners subdivide 
 
 Comments:g.txt and t.txt is the target file.We use two files to implements methods in class Grammy_GetTxt.java and GrammyWinners.java.
 
